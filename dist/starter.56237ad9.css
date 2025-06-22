@@ -1,0 +1,51 @@
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+label {
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+  display: block;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: calc(100% - 30px);
+  margin: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: border-color .3s;
+}
+
+input[type="submit"] {
+  color: #fff;
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+  border-radius: .5rem;
+  width: calc(100% - 30px);
+  margin: 10px 15px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: background-color .3s;
+}
+
+input[type="text"]:focus {
+  border-color: gray;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: #5a5a5a;
+}
+/*# sourceMappingURL=starter.56237ad9.css.map */
